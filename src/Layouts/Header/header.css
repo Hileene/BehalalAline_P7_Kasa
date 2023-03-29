@@ -1,0 +1,57 @@
+/******************VERSION DESKTOP******************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+  margin: 20px;
+  padding: 0 32px;
+  
+}
+
+.logo-header {
+  height: 50px;
+  width: 180px;
+  margin-top: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 32px 10px 32px;
+  text-decoration: none;
+  color: var(--red);
+}
+
+.nav-links:hover {
+  color:  #000000;
+  
+}
+
+.nav-links:active {
+  text-decoration-line: underline;
+
+}
+
+/*****************VERSION MOBILE*************************/
+@media screen and (max-width: 699px) {
+  header {
+    margin: 20px 30px;
+    padding: 0;
+  }
+  .logo-header {
+    height: 40px;
+    width: 100px;
+  }
+  .nav-links {
+    padding: 25px 32px 10px 32px;
+  }
+}
