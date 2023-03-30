@@ -12,12 +12,14 @@ header {
 .logo-header {
   height: 50px;
   width: 180px;
+  max-width: 100%;
   margin-top: 15px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  
   
 }
 
