@@ -3,7 +3,7 @@ import Home from './pages/Home/Home'
 import Lodging from './pages/Lodging/Lodging'
 import About from './pages/About/About'
 import Error from './pages/Error/Error'
-import Layout from "./Layouts/Layout"
+import Layout from "./layout/Layout"
 
 import './App.css'
 

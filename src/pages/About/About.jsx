@@ -1,6 +1,6 @@
 function About() {
     return(
-        <div>A Propos</div>
+        <div></div>
     )
 }
 
