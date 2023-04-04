@@ -3,7 +3,7 @@ main {
     margin: auto 10%;
     width: 80%;
   }
-  
+  /************************************VERSION MOBILE**********************************/
   @media screen and (max-width: 699px) {
     main {
       margin: auto 5%;

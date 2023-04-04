@@ -44,7 +44,7 @@ nav {
 }
 
 /*****************VERSION MOBILE*************************/
-@media screen and (max-width: 699px) {
+/*@media screen and (max-width: 992px) {
   header {
     margin: 20px 30px;
     padding: 0;
@@ -57,3 +57,18 @@ nav {
     padding: 25px 32px 10px 32px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  header {
+    width: 100%;
+    margin: 20px 10px 30px 15px;
+  }
+  nav {
+    width: 57%;
+  }
+  .nav-links {
+    padding: 25px 20px 10px 20px;
+    width: 110px
+}
+
+}*/
