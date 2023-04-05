@@ -4,7 +4,7 @@ main {
     width: 80%;
   }
   /************************************VERSION MOBILE**********************************/
-  @media screen and (max-width: 699px) {
+  @media screen and (max-width: 768px) {
     main {
       margin: auto 5%;
       width: 90%;
