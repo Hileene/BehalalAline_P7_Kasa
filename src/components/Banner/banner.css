@@ -1,6 +1,6 @@
 .banner {
     width: 100%;
-    height: 200px;
+    height: 225px;
     position: relative;
     border-radius: 25px; 
     margin-top: 55px;   
@@ -20,10 +20,21 @@
     left: 19%;
     top: 41%;
     font-size: 48px;
-    width: 100%;
     color: white;
     font-weight: 500;
     height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    .banner-text {
+        left: 9%;
+        font-size: 40px;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .banner-text {
+        width: 69%;
+        transform: translateY(-13%);
+    }
+}
