@@ -1,0 +1,13 @@
+.cards-items {
+  width: 295px;
+  height: 295px;
+  border-radius: 10px;
+  border: 2px solid green;
+}
+
+.cards-cover {
+    width: 292px;
+    height: 292px;
+    border-radius: 10px;
+    object-fit: cover;
+}
