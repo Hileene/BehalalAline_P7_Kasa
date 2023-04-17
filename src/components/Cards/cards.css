@@ -1,13 +1,48 @@
 .cards-items {
-  width: 295px;
-  height: 295px;
+  position: relative;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
-  border: 2px solid green;
+}
+
+.cards-items:hover {
+    background: linear-gradient(180deg, var(--red) 85%, #000000a6 100%);
+    cursor: pointer;
+}
+
+.cards-items:hover > .cards-cover {
+  opacity: 0.3;
 }
 
 .cards-cover {
-    width: 292px;
-    height: 292px;
-    border-radius: 10px;
-    object-fit: cover;
+  width: 292px;
+  height: 292px;
+  border-radius: 10px;
+  object-fit: cover;
 }
+
+.cards-darker {
+    background: linear-gradient(180deg, #ffffff00 0%, #00000080 100%);
+    border-radius: 10px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cards-title {
+    position:absolute; 
+    bottom: 20px;
+    left: 17px;
+    color: white;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px ) {
+    .cards-cover {
+        width: 100%;
+        height: 100%;
+    }
+}
+
