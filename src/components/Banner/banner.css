@@ -25,16 +25,26 @@
     height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .banner-text {
-        left: 9%;
         font-size: 40px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
+
+    .banner {
+        border-radius: 10px;
+    }
+
+    .banner-img {
+        border-radius: 10px;
+    }
     .banner-text {
-        width: 69%;
-        transform: translateY(-13%);
+        left: 10%;
+        height: 120px;
+        margin-bottom: 25px;
+        transform: translateY(-5%);
+        margin-right: 20px;
     }
 }

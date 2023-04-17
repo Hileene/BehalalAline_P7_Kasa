@@ -39,20 +39,27 @@ nav {
 }
 
 /*****************VERSION MOBILE*************************/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
 
   header {
     width: 87%;
-    margin-bottom: -12px;
+    margin: 35px 10% -12px 6%;
   }
 
   .logo-header{
-    width: 36%;
+    width: 46%;
+    height: 50%;
+
+  }
+
+  nav {
+    margin-left: 34px;
   }
 
   .nav-links {
-    width: 98px;
-    font-size: 1.2rem;
+    width: 83px;
+    font-size: 1rem;
     margin: 0;
+    text-transform: uppercase;
   }
 }
