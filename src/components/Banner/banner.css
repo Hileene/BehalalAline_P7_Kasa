@@ -22,7 +22,7 @@
     font-size: 48px;
     color: white;
     font-weight: 500;
-    height: 100%;
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -42,8 +42,6 @@
     }
     .banner-text {
         left: 10%;
-        height: 120px;
-        margin-bottom: 25px;
         transform: translateY(-5%);
         margin-right: 20px;
     }
