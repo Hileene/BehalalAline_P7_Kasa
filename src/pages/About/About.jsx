@@ -9,10 +9,10 @@ import "./about.css"
   return (
     <div>
       <Banner image={AboutImg} title="" />
-      <main className="about">
+      <main className="about-container">
         {ValuesDatas.map((data) => {
           return (
-            <div key={data.id} className="about_main_collapse">
+            <div key={data.id} className="about-collapse">
               <Collapse title={data.title} text={data.text} />
             </div>
           )
