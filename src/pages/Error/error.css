@@ -1,0 +1,45 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+  color: var(--red);
+  margin-bottom: 15%;
+}
+
+.error-pic {
+  width: 45%;
+  margin-top: 15%;
+}
+
+.error-text {
+  font-size: 36px;
+  text-align: center;
+}
+
+.error-redirect {
+  color: var(--red);
+  font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .error {
+    margin-top: 26%;
+    margin-bottom: 26%;
+    gap: 43px;
+  }
+  .error-pic {
+    width: 30%;
+  }
+
+  .error-text {
+    font-size: 25px;
+  }
+
+  .error-redirect {
+    margin-top: 40%;
+  }
+
+
+}
