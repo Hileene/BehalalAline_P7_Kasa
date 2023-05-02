@@ -1,7 +1,7 @@
 import './cards.css'
 import {Link} from "react-router-dom"
 
-
+/*Création des cartes pour la Gallerie*/
 function Cards({ id, cover, title }) {
   return (
     <Link to={`/lodging/${id}`}>
