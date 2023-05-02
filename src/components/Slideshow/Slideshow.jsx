@@ -4,20 +4,20 @@ import ArrowBack from '../../assets/arrow-back.png'
 import './slideshow.css'
 
 export default function Slideshow({ slides }) {
-  const [current, setCurrent] = useState(0)
+  const [currentPosition, setCurrentPosition] = useState(0)
 
   const nextSlide = () => {
-    setCurrent(current === slides.length - 1 ? 0 : current + 1)
+    setCurrentPosition(currentPosition === slides.length - 1 ? 0 :currentPosition+ 1)
   }
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? slides.length - 1 : current - 1)
+    setCurrentPosition(currentPosition === 0 ? slides.length - 1 : currentPosition - 1)
   }
 
   if (slides.length > 1) {
     return (
       <section className="slider">
-        <img className="slider-img" src={slides[current]} alt={slides.description} />
+        <img className="slider-img" src={slides[currentPosition]} alt={slides.description} />
         <img
           className="arrow-back"
           src={ArrowBack}
@@ -31,7 +31,7 @@ export default function Slideshow({ slides }) {
           onClick={nextSlide}
         />
         <span className="slide-number">
-          {current + 1} / {slides.length}
+          {currentPosition + 1} / {slides.length}
         </span>
       </section>
     )
@@ -39,9 +39,9 @@ export default function Slideshow({ slides }) {
     return(
 
     <section className="slider">
-    <img src={slides[current]} alt={slides.description} />
+    <img src={slides[currentPosition]} alt={slides.description} />
       <span className="slide-number">
-        {current + 1} / {slides.length}
+        {currentPosition + 1} / {slides.length}
       </span>
     </section>
     )
