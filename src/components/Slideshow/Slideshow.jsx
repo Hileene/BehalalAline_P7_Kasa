@@ -39,7 +39,7 @@ export default function Slideshow({ slides }) {
     return(
 
     <div className="slider">
-    <img src={slides[currentPosition]} alt={slides.description} />
+    <img  className="slider-img" src={slides[currentPosition]} alt={slides.description} />
       <span className="slide-number">
         {currentPosition + 1} / {slides.length}
       </span>
