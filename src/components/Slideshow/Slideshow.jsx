@@ -16,7 +16,7 @@ export default function Slideshow({ slides }) {
 
   if (slides.length > 1) {
     return (
-      <section className="slider">
+      <div className="slider">
         <img className="slider-img" src={slides[currentPosition]} alt={slides.description} />
         <img
           className="arrow-back"
@@ -33,17 +33,17 @@ export default function Slideshow({ slides }) {
         <span className="slide-number">
           {currentPosition + 1} / {slides.length}
         </span>
-      </section>
+      </div>
     )
   } else {
     return(
 
-    <section className="slider">
+    <div className="slider">
     <img src={slides[currentPosition]} alt={slides.description} />
       <span className="slide-number">
         {currentPosition + 1} / {slides.length}
       </span>
-    </section>
+    </div>
     )
   }
 }
