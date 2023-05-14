@@ -1,9 +1,8 @@
-.tags-content{
-    background-color: var(--red);
-    border-radius: 10px;
-    text-align: center;
-    color: #fff;
-    padding: 5px 5px;
-    margin: 5px 5px;
-
+.tags-content {
+  background-color: var(--red);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 5px;
+  width: 145px;
 }
