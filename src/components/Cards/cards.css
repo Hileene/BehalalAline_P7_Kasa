@@ -38,7 +38,7 @@
     color: white;
     margin-right: 20px;
 }
-
+/**********************VERSION MOBILE*************************/
 @media screen and (max-width: 768px ) {
     .cards-cover {
         width: 100%;
