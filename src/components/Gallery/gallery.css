@@ -8,7 +8,7 @@
     margin: 30px 0;
     padding: 35px;
 }  
-
+/*****************VERSION MOBILE***********************/
 @media screen and (max-width: 768px) {
     .home-gallery {
         width: 100%;
