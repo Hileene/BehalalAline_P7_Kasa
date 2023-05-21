@@ -3,7 +3,9 @@ import './tags.css'
 function Tags({name}) {
     return (
         
-            <li className='tags-content'>{name}</li>
+        
+        <span className='tags-content'>{name}</span>
+      
         
         
     )
