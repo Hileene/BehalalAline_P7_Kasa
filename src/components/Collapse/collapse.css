@@ -48,7 +48,8 @@
   gap: 5px;
   opacity: 1;
   letter-spacing: 2px;
-  font-size: clamp(12px, 2vw, 16px);
+  font-size: clamp(18px, 2vw, 21px);
+  line-height: 25px;
 }
 
 @media screen and (max-width: 768px) {
