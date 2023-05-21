@@ -1,3 +1,4 @@
+/*MISE EN FORME DE LA GALLERIE POUR LA PAGE D'ACCUEIL*/
 .home-gallery {
     display: flex;
     justify-content: space-evenly;
