@@ -17,20 +17,22 @@
 
 .banner-text {
     position: absolute;
-    left: 19%;
+    left: 23%;
     top: 41%;
     font-size: 48px;
     color: white;
     font-weight: 500;
     
 }
-
+/**********************VERSION TABLETTE*********************/
 @media screen and (max-width: 992px) {
     .banner-text {
         font-size: 40px;
     }
 }
 
+
+/**********************VERSION MOBILE*********************/
 @media screen and (max-width: 768px) {
 
     .banner {
