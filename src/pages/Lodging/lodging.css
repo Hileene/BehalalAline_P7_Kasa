@@ -1,27 +1,21 @@
-.lodgings {
+.lodgings-container {
   color: var(--red);
+}
+
+.lodgings-content {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 30px 0;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
-.lodgings-content-infos {
+.lodgings-title-tags {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-.lodgings-infos {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .lodgings-title {
   font-size: 36px;
-  font-weight: 500;
 }
 
 .lodgings-location {
@@ -30,65 +24,72 @@
 
 .tags {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.tags-container {
-  display: flex;
-  list-style-type: none;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
-.lodgings-content-host {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  margin-top: -135px;
+  gap: 12px;
+  margin-top: 12px;
 }
 
 .lodgings-host {
-  align-items: center;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.lodgings-host-name {
+.lodgings-host-info {
+  display: flex;
+  align-items: center;
+}
+
+.host {
+  font-size: 18px;
   width: 100px;
-  color: var(--red);
   text-align: right;
   margin-right: 10px;
-  font-size: 18px;
 }
 
 .host-picture {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 
-.lodgings-rating {
-  align-items: center;
+.lodgings-ratings {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
-  margin-bottom: 25px;
-  gap: 15px;
+  gap: 15px
 }
 
 .lodgings-description {
   display: flex;
   gap: 65px;
+  margin: 20px auto;
 }
 
 .lodgings-description div {
   width: 100%;
   height: 20%;
   list-style: none;
+  line-height: 25px;
 }
 
+/***********************VERSION TABLETTE************************/
+
+/***********************VERSION MOBILE************************/
+@media screen and (max-width: 768px) {
+  .lodgings-content {
+    flex-direction: column;
+  }
+  .lodgings-host {
+    flex-direction: row-reverse;
+    margin-top : 10px;
+  }
+
+  .lodgings-description {
+    flex-direction: column;
+    gap: 40px;
+  }
 
 
-
+  
+}
