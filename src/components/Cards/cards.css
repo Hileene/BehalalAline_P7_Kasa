@@ -1,3 +1,5 @@
+/*CREATION DES CARTES DE LOGEMENTS*/
+
 .cards-items {
   position: relative;
   width: 100%;
@@ -37,6 +39,7 @@
     left: 17px;
     color: white;
     margin-right: 20px;
+    font-size: 18px;
 }
 /**********************VERSION MOBILE*************************/
 @media screen and (max-width: 768px ) {
