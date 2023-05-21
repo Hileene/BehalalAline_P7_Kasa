@@ -50,3 +50,11 @@
   letter-spacing: 2px;
   font-size: clamp(12px, 2vw, 16px);
 }
+
+@media screen and (max-width: 768px) {
+  .text-collapse {
+    font-size: clamp(16px, 2vw, 16px);
+
+  }
+
+}
