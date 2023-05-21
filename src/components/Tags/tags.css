@@ -2,7 +2,10 @@
   background-color: var(--red);
   border-radius: 10px;
   text-align: center;
+  margin: auto 0px;
+  min-width: 115px;
+  font-size: 14px;
   color: #fff;
   padding: 5px 5px;
-  width: 145px;
+  
 }
