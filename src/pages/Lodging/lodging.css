@@ -80,9 +80,21 @@
   .lodgings-content {
     flex-direction: column;
   }
+
+  .tags {
+    flex-wrap: wrap;
+  }
   .lodgings-host {
     flex-direction: row-reverse;
     margin-top : 10px;
+  }
+
+  .lodgings-ratings {
+    justify-content: flex-start;
+  }
+
+  .lodgings-ratings img {
+    width: 20px;
   }
 
   .lodgings-description {
