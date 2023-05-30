@@ -5,6 +5,8 @@ import "./collapse.css"
 
 function Collapse( {title, text}) {
 
+  //utilise le hook d'état useState pour gérer l'état open qui détermine si le contenu supplémentaire
+  // est actuellement affiché ou caché
   const [open, setOpen]= useState(false)
 
  return (

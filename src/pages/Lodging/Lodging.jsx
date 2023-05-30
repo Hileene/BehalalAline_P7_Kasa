@@ -9,12 +9,14 @@ import Collapse from '../../components/Collapse/Collapse'
 import './lodging.css'
 
 export default function Lodging() {
+  /* Récupère l'id de chaque appartement*/
   const { id } = useParams()
 
+/* Méthode find recherche les données pour chaque appartement dans le tableau lodgings.json */
   const foundLodgings = Lodgings.find((e) => e.id === id)
 
   if (foundLodgings) {
-
+    /*Méthode map récupère la liste des équipements pour chaque appartement*/
     const equipments = foundLodgings.equipments.map((equipment, index) => {
       return <li key={index}>{equipment}</li>
   })
@@ -51,7 +53,9 @@ export default function Lodging() {
                 />
               </div>
               <div className="lodgings-ratings">
+                {/*Création d'un tableau qui va itérer 5 fois avec la fonction map */}
               {[...Array(5)].map((star, index) => {
+                /*Ici on ajoute 1 parce que la valeur de départ dans les array est 0 */
 								const ratingValue = index + 1;
 								return (
 									<img key={index} src={ratingValue <= foundLodgings.rating ? StarActive : StarInactive} alt="star" />

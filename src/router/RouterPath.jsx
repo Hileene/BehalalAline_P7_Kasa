@@ -5,6 +5,9 @@ import About from '../pages/About/About'
 import Error from '../pages/Error/Error'
 import Layout from "../layout/Layout"
 
+
+//Ce composant configure les itinéraires (routes) de navigation à l'aide 
+//du système de routage de React Router.
 function RouterPath() {
     return (
         <BrowserRouter>
