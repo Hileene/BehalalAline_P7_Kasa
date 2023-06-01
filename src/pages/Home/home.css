@@ -1,3 +1,13 @@
 .homepage{
     margin: 0 auto;
 }
+
+/**********************VERSION MOBILE***********************/
+
+@media screen and (max-width: 768px){
+    .banner-home-mob{
+        height: 125px;
+    }
+
+    
+}
