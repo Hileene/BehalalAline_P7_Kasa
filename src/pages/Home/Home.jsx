@@ -6,7 +6,7 @@ import "./home.css"
 function Home() {
     return(
         <div className="homepage">
-            <Banner image={HomeImg} text= "Chez vous, partout et ailleurs" /> 
+            <Banner className="banner-home-mob banner-img-mob" image={HomeImg} text= "Chez vous, partout et ailleurs" /> 
             <Gallery />  
         </div>
        
