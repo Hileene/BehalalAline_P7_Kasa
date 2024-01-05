@@ -9,7 +9,7 @@ import Layout from '../layout/Layout'
 //du système de routage de React Router.
 function RouterPath() {
   return (
-    <BrowserRouter basename="/kasa">
+    <BrowserRouter basename="/BehalalAline_P7_Kasa">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
