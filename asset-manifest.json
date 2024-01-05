@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kasa/static/css/main.d248271d.css",
-    "main.js": "/kasa/static/js/main.a0eb4685.js",
-    "static/media/about-img.png": "/kasa/static/media/about-img.4e108f67418694b4d9db.png",
-    "static/media/home-img.png": "/kasa/static/media/home-img.7548b2a7d4de41ae5d51.png",
-    "index.html": "/kasa/index.html",
-    "main.d248271d.css.map": "/kasa/static/css/main.d248271d.css.map",
-    "main.a0eb4685.js.map": "/kasa/static/js/main.a0eb4685.js.map"
+    "main.css": "/BehalalAline_P7_Kasa/static/css/main.d248271d.css",
+    "main.js": "/BehalalAline_P7_Kasa/static/js/main.8564f07d.js",
+    "static/media/about-img.png": "/BehalalAline_P7_Kasa/static/media/about-img.4e108f67418694b4d9db.png",
+    "static/media/home-img.png": "/BehalalAline_P7_Kasa/static/media/home-img.7548b2a7d4de41ae5d51.png",
+    "index.html": "/BehalalAline_P7_Kasa/index.html",
+    "main.d248271d.css.map": "/BehalalAline_P7_Kasa/static/css/main.d248271d.css.map",
+    "main.8564f07d.js.map": "/BehalalAline_P7_Kasa/static/js/main.8564f07d.js.map"
   },
   "entrypoints": [
     "static/css/main.d248271d.css",
-    "static/js/main.a0eb4685.js"
+    "static/js/main.8564f07d.js"
   ]
 }
