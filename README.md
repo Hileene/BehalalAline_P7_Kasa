@@ -119,7 +119,7 @@ _Project #7: Web Developer Training [OpenClassrooms](https://openclassrooms.com/
 
 - [Project Description](#project-description)
 - [Fictional Scenario](#fictional-scenario)
-- [Evaluated Skills](#evaluated-skills)
+- [Assessed Skills](#assessed-skills)
 - [Technologies](#technologies)
 - [Technical Requirements](#technical-requirements)
 - [Functional Requirements](#functional-requirements)
@@ -138,7 +138,7 @@ Kasa hires me as a freelance front-end developer to develop its new web platform
 Laura, the CTO, has initiated a complete overhaul to switch to a full JavaScript stack with
 NodeJS on the back-end, and React on the front-end. As the back-end developer recruitment is not yet complete, the Front will be built from data in a JSON file.
 
-## Evaluated Skills
+## Assessed Skills
 
 - 🌐 Configure navigation between application pages with React Router
 - 🚀 Initialize an application with Create React App
