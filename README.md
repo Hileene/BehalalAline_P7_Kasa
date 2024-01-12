@@ -6,7 +6,7 @@
 
 _Projet #7 : Formation Développeur Web [OpenClassrooms](https://openclassrooms.com/fr/paths/717-developpeur-web)_
 
-<img src="/kasa/src/assets/made-with-react.svg" alt="For The Badge React image" /> [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com) <img src="/kasa/src/assets/made-with-react.svg" alt="For The Badge React image" />
 <img src="/kasa/src/assets/powered-by-candy.svg" alt="For The Badge Candy image" />
 
 [Kasa](https://hileene.github.io/BehalalAline_P7_Kasa/) - <a href="#version-française">README FR</a> - <a href="#english-version">README EN</a>
