@@ -40,9 +40,9 @@ NodeJS côté back-end, et React côté front-end. Le recrutement du développeu
 
 ## Compétences Évaluées
 
-- Configurer la navigation entre les pages de l'application avec React Router
-- Initialiser une application avec Create React App
-- Développer des éléments de l'interface d'un site web grâce à des composants React
+- 🌐 Configurer la navigation entre les pages de l'application avec React Router
+- 🚀 Initialiser une application avec Create React App
+- 👨‍💻 Développer des éléments de l'interface d'un site web grâce à des composants React
 
 ## Technologies
 
@@ -140,9 +140,9 @@ NodeJS on the back-end, and React on the front-end. As the back-end developer re
 
 ## Evaluated Skills
 
-- Configure navigation between application pages with React Router
-- Initialize an application with Create React App
-- Develop elements of a website's interface using React components
+- 🌐 Configure navigation between application pages with React Router
+- 🚀 Initialize an application with Create React App
+- 👨‍💻 Develop elements of a website's interface using React components
 
 ## Technologies
 
