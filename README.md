@@ -1,7 +1,7 @@
 # Créez une application web de location immobilière avec React
 
 <p align="center">
-  <img src="/kasa/src/assets/banner-kasa-readme.png" alt="Bannière Kasa">
+  <img src="./src/assets/banner-kasa-readme.png" alt="Bannière Kasa">
 </p>
 
 _Projet #7 : Formation Développeur Web [OpenClassrooms](https://openclassrooms.com/fr/paths/717-developpeur-web)_
