@@ -1,11 +1,10 @@
 /******************VERSION DESKTOP******************/
 
-
 header {
   align-items: center;
   display: inline-flex;
   margin: 40px 10% -12px 10%;
-  width: 80%;
+  /*width: 80%;*/
 }
 
 .logo-header {
@@ -19,8 +18,6 @@ nav {
   width: 100%;
 }
 
-
-
 .nav-links {
   margin: auto 25px;
   text-decoration: none;
@@ -29,27 +26,23 @@ nav {
 }
 
 .nav-links:hover {
-  color:  #000000;
-  
+  color: #000000;
 }
 
 .nav-links:active {
   text-decoration-line: underline;
-
 }
 
 /*****************VERSION MOBILE*************************/
 @media screen and (max-width: 768px) {
-
   header {
     width: 87%;
     margin: 35px 10% -12px 6%;
   }
 
-  .logo-header{
+  .logo-header {
     width: 46%;
     height: 50%;
-
   }
 
   nav {
@@ -61,5 +54,12 @@ nav {
     font-size: 1rem;
     margin: 0;
     text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 65%;
+    /*margin: 35px 0 -12px 6%;*/
   }
 }
