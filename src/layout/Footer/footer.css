@@ -1,19 +1,23 @@
 .kasa-footer {
-    background-color: black;
-    height: 130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  background-color: black;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
- 
 .copyrights-text {
-    color: white;
+  color: white;
 }
 
 .logo-footer {
-    height: 38px;
-    width: 100px;
+  height: 38px;
+  width: 100px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ff6060;
 }
